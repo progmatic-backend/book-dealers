@@ -12,8 +12,21 @@ majd a Next gomra kattintás után add hozzá az alábbi 3 dependenciát:
 ## Home page és About page készítése
 
 Miután leellenőrizted, hogy fordul a projekt, nekiláthatsz a kódolásnak.
-A `@SpringBootApplication` annotációval ellátott osztály mellé készíts egy `controller`
+A `@SpringBootApplication` annotációval ellátott osztály "mellé" készíts egy `controller`
 package-et és vegyél fel bele egy `PageController` osztályt!
+
+Tehát a projekt strukturád ilyen legyen:
+```
+book-dealers/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── hu/
+│   │   │       └── progmatic/
+│   │   │           └── BookDealersApplication.java
+│   │   │           └── controller
+│   │   │               └── PageController.java
+```
 
 Az osztályt lásd el `@Controller` annotációval és vegyél fel bele egy-egy metódust,
 amelyek a `home` és az `about` oldalak elérését teszik lehetővé!
